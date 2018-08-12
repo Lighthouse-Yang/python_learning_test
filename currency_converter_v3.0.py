@@ -22,11 +22,11 @@ while currency_str_value != 'exit':
     if unit == 'CNY':
         # 输入的是人民币——人民币兑换美元
         usd_value = value/USD_VS_RMB
-        print('美元(USD)金额：', usd_value)
+        print('美元(usd)金额：', usd_value)
     elif unit == 'USD':
         # 输入的是美元——美元兑换人民币
         rmb_value = value*USD_VS_RMB
-        print('人民币(CNY)金额：', rmb_value)
+        print('人民币金额：', rmb_value)
     else:
         print('暂时不支持兑换')
     print('***************************************')
