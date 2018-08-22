@@ -7,7 +7,6 @@
 import datetime
 
 
-
 def main():
     """
         主函数
@@ -17,28 +16,13 @@ def main():
     year = input_date.year
     month = input_date.month
     day = input_date.day
-    ping_year = ('31', '28', '31','30', '31', '30', '31', '31', '30', '31', '30', '31')
-    run_year = ('31', '29', '31','30', '31', '30', '31', '31', '30', '31', '30', '31')
-    # print(ping_year)
-    # print(type(ping_year))       # 元组类型
-    # print(type(ping_year[2]))    # 字符串类型
-
-    i = 1
-    s = 0
-    if year % 400 == 0:
-        # 能整除400则为闰年
-
-        while i < month:
-            s = s +int(run_year[i - 1])
-            i = i + 1
-        days = s + day
-        print('闰年', days)
-    else:
-        while i < month:
-            s = s + int(ping_year[i - 1])
-            i = i + 1
-        days = s + day
-        print('平年', days)
+    ping_year = (31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31)
+    days = sum(ping_year[:month - 1]) + day
+    # 判断闰年
+    if (year % 400 == 0) or (year % 4 == 0 and year % 100 != 0):
+        if month > 2:
+            days = days + 1
+    print('这一天是第{}天'.format(days))
 
 
 if __name__ == '__main__':
