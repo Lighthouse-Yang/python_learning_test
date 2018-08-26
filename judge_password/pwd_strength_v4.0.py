@@ -106,7 +106,6 @@ def main():
     # 2-for line in f.readlines():      这是readlines()遍历的三种写法.
     # 3-for line in f:
     #    print('read:{}'.format(line))
-
     f.close()
 
 
