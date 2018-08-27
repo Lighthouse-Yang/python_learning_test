@@ -87,9 +87,10 @@ class FileTool:
         self.filepath = filepath
 
     # 写入类方法
-    def write_to_file(self, line, time):
+    def write_to_file(self, time, line):
         f = open(self.filepath, 'a')
-        f.write(line, time)
+        f.write(time)
+        f.write(line)
         f.close()
 
     # 读取类方法
@@ -109,15 +110,16 @@ def main():
     username = input('用户名：')
     password = input('密码：')
     password_ = input('确认密码：')
-    filepath = 'login.txt'
+    filepath = 'LoginSystem.txt'
     # 调用PasswordTool类方法.
     password_tool = PasswordTool(username, password, password_)
     password_tool.check_result()
     # 调用FileTool类方法.
-    time = datetime.datetime.now()
+    time = (str(datetime.datetime.now().strftime("%Y.%m.%d-%H:%M:%S")) + '----')
     line = '密码：{}-----强度：{}\n'.format(password, password_tool.strength_password)
     file_tool = FileTool(filepath)
-    file_tool.write_to_file(line, time)
+    file_tool.write_to_file(time, line)
+
 
 if __name__ == '__main__':
     main()

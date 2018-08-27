@@ -48,7 +48,6 @@ class LoginSystem:
                     break
             return has_letter
 
-        def
 
 def main():
     """
