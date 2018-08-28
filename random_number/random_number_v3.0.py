@@ -42,6 +42,8 @@ def main():
         roll1 = roll_dice()
         roll2 = roll_dice()
 
+        # 功能：在列表末尾加上一个元素.
+        # 目的：将每一次模拟出的结果通过append()函数加到列表末端.
         roll1_list.append(roll1)
         roll2_list.append(roll2)
 
