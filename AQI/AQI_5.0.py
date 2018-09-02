@@ -15,17 +15,19 @@ def get_html_text(url):
     """
         返回url的文本
     """
-    r = requests.get(url, timeout=30)
-    # print(r.status_code)
+    r = requests.get(url, timeout=5)
+    print(r.status_code)
     return r.text
 
 
 def read_city_name(filepath):
     f = open(filepath, "r")
-    lines = f.readlines()  # 读取全部内容 ，并以列表方式返回
-    for line in lines:
-        return str(line)
-
+    # 读取全部内容 ，并以列表方式返回
+    for line in f.readlines():
+        line = line.strip('\n')
+        return line
+        print(line)
+    f.close()
 
 def main():
     """
@@ -33,8 +35,10 @@ def main():
     """
     filepath = 'city_name.txt'
     city_pinyin = read_city_name(filepath)
+    print(city_pinyin)
     # city_pinyin = input('请输入城市拼音：')
     url = 'http://pm25.in/' + city_pinyin
+    print(url)
     url_text = get_html_text(url)
 
     aqi_div = """<div class="span12 data">
