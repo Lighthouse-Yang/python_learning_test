@@ -7,48 +7,78 @@
     新增功能：爬虫-网页访问.
     新增功能：利用BeautifulSoup进行网页解析,实现网页爬虫.
     新增功能：获取所有城市的AQI.
-    新增功能：将获取到的所有城市的AQI保存到csv文件中.
-    9.0新增功能：利用Pandas就行数据处理及分析.
-    版本：9.0
-    日期：02/09/2018
+    8.0新增功能：将获取到的所有城市的AQI保存到csv文件中.
+    版本：8.0
+    日期：05/09/2018
 """
-import pandas as pd
+import requests
+from bs4 import BeautifulSoup
+import csv
+
+
+def get_city_aqi(city_pinyin):
+    """
+        获取城市的AQI
+    """
+    url = 'http://pm25.in/' + city_pinyin
+    r = requests.get(url, timeout=30)
+    soup = BeautifulSoup(r.text, 'lxml')
+    div_list = soup.find_all('div', {'class': 'span1'})
+
+    city_aqi = []
+    for i in range(8):
+        div_content = div_list[i]
+        caption = div_content.find('div', {'class': 'caption'}).text.strip()
+        value = div_content.find('div', {'class': 'value'}).text.strip()
+
+        # city_aqi.append((caption, value))
+        city_aqi.append(value)
+    return city_aqi
+
+
+def get_all_cities():
+    """
+        获取所有城市
+    """
+    url = 'http://pm25.in/'
+    city_list = []
+    r = requests.get(url, timeout=30)
+    soup = BeautifulSoup(r.text, 'lxml')
+
+    city_div = soup.find_all('div', {'class': 'bottom'})[1]
+    city_link_list = city_div.find_all('a')
+    for city_link in city_link_list:
+        city_name = city_link.text
+        city_pinyin = city_link['href'][1:]
+        city_list.append((city_name, city_pinyin))
+    return city_list
 
 
 def main():
     """
         主函数
     """
-    aqi_data = pd.read_csv('china_city_aqi.csv')
-    # # print(aqi_data.head(5))
-    # # 获取多行时，需要放入一个列表['city', 'AQI']这样,所以是两个括号.
-    # print(aqi_data[['city', 'AQI']])
+    city_list = get_all_cities()
+    # for city in city_list:
+    #     city_name = city[0]
+    #     city_pinyin = city[1]
+    #     city_aqi = get_city_aqi(city_pinyin)
+    #     print(city_name, city_aqi)
+    header = ['City', 'AQI', 'PM2.5/1h', 'PM10/h', 'CO/1h', 'NO2/1h', 'O3/1h', 'O3/8h', 'SO2/1h']
 
-    print('基本信息：')
-    print(aqi_data.info())
+    with open('china_city_aqi.csv', 'w', encoding='utf-8', newline='') as f:
+        writer = csv.writer(f)
+        writer.writerow(header)
+        for i, city in enumerate(city_list):
+            if (i + 1) % 10 == 0:
+                print('已处理{}条记录。(共{}条记录)'.format(i + 1, len(city_list)))
 
-    print('数据预览')
-    print(aqi_data.head())
+            city_name = city[0]
+            city_pinyin = city[1]
+            city_aqi = get_city_aqi(city_pinyin)
+            row = [city_name] + city_aqi
+            writer.writerow(row)
 
-    # 基本统计
-    print('AQI最小值：', aqi_data['AQI'].min())
-    print('AQI平均值：', aqi_data['AQI'].mean())
-
-    # 排序——AQI top10    # 升序排列
-    top100_city = aqi_data.sort_values(by=['AQI']).head(100)
-    print('空气质量最好100个城市：')
-    print(top100_city)
-
-    # tail末尾
-    # bottom100_top100_city = aqi_data.sort_values(by=['AQI']).tail(10)
-    # 方法二：通过降序排列(ascending=False)取前十，记为最差的10个城市.
-    bottom100_top100_city = aqi_data.sort_values(by=['AQI'], ascending=False).tail(100)
-    print('空气质量最差100个城市：')
-    print(bottom100_top100_city)
-
-    # 保存成csv.
-    top100_city.to_csv('top100_aqi.csv', index=False)
-    bottom100_top100_city.to_csv('bottom100_top100_aqi.csv', index=False)
 
 if __name__ == '__main__':
     main()
