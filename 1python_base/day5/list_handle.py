@@ -47,3 +47,41 @@
 #             print(number[0:6:2])
 # 若要倒着取元素，则可以将步长设为负数.   取到'*', '$', '@'
 #             print(number[5:2:-1])               # 倒着取元素即可.
+#
+"""
+   列表的简单操作. 
+"""
+
+# 1.count():计算某元素出现的次数.
+t = ['a', 'b', 'c', 'f', 'a', 'b', 'c', 'c']
+print(t.count('c'))
+
+# 2.extend():连接两个列表.
+a = [1, 2, 3]
+b = [2, 4, 6]
+a.extend(b)     # a后边连上b列表.
+print(a)
+
+# 3.index():查找相应元素的位置信息.
+print(a.index(3))   # 查找元素3的位置.
+# 当有多个相同元素时，可以利用切片读取进行读取位置.
+first_2_index = a.index(2)
+print(first_2_index)
+litter_list = a[first_2_index + 1:]
+print(litter_list)
+# 拿到了第二个2在小列表中的位置.
+second_2_litter_list_index = litter_list.index(2)
+print(second_2_litter_list_index)
+second_2_index = first_2_index + second_2_litter_list_index + 1
+print('第二个2在列表a中的位置：', second_2_index)
+print('元素为：', a[second_2_index])
+
+# 4.列表元素的排序.
+t = [3, 4, 5, 7, 9, 0]
+# reverse()  列表元素倒叙.
+t.reverse()
+print(t)
+# 按照条件排序.
+# sort()从小到大.
+t.sort()
+print(t)
