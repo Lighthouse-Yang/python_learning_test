@@ -2,8 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86af8168-094e-4157-81f9-b29945e476a7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1python_base/day07/three_menu_V2.0.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1python_base/day16/decrator.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1python_base/day16/function_v1.0.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/1python_base/day07/three_menu.py" afterPath="$PROJECT_DIR$/1python_base/day07/three_menu.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/52_save_money/money_challenge_4.0.py" afterPath="$PROJECT_DIR$/52_save_money/money_challenge_4.0.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -24,17 +27,21 @@
     <SUITE FILE_PATH="coverage/python_learning_test$random_number_v2_0.coverage" NAME="random_number_v2.0 Coverage Results" MODIFIED="1535366361904" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_number" />
     <SUITE FILE_PATH="coverage/code$currency_converter_v5_0.coverage" NAME="currency_converter_v5.0 Coverage Results" MODIFIED="1534143023810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_learning_test$AQI_3_0.coverage" NAME="AQI_3.0 Coverage Results" MODIFIED="1535613924946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AQI" />
+    <SUITE FILE_PATH="coverage/python_learning_test$money_challenge_4_0.coverage" NAME="money_challenge_4.0 Coverage Results" MODIFIED="1536633199222" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/52_save_money" />
     <SUITE FILE_PATH="coverage/python_learning_test$list_handle.coverage" NAME="list_handle Coverage Results" MODIFIED="1536379715526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1python_base/day45" />
     <SUITE FILE_PATH="coverage/python_learning_test$gfgf.coverage" NAME="gfgf Coverage Results" MODIFIED="1535447999247" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/judge_password" />
+    <SUITE FILE_PATH="coverage/python_learning_test$decrator.coverage" NAME="decrator Coverage Results" MODIFIED="1536643878652" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1python_base/day16" />
     <SUITE FILE_PATH="coverage/code$currency_converter_v1_0.coverage" NAME="currency_converter_v1.0 Coverage Results" MODIFIED="1533967376828" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_learning_test$pwd_strength_v6_0.coverage" NAME="pwd_strength_v6.0 Coverage Results" MODIFIED="1535263675044" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/judge_password" />
     <SUITE FILE_PATH="coverage/python_learning_test$pwd_strength_v2_0.coverage" NAME="pwd_strength_v2.0 Coverage Results" MODIFIED="1535088854957" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/judge_password" />
     <SUITE FILE_PATH="coverage/python_learning_test$AQI_7_0.coverage" NAME="AQI_7.0 Coverage Results" MODIFIED="1536154076941" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AQI" />
     <SUITE FILE_PATH="coverage/code$BMR_V1_0.coverage" NAME="BMR_V1.0 Coverage Results" MODIFIED="1534409891416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BMR" />
     <SUITE FILE_PATH="coverage/python_learning_test$random_number_v3_0.coverage" NAME="random_number_v3.0 Coverage Results" MODIFIED="1535367617034" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_number" />
+    <SUITE FILE_PATH="coverage/python_learning_test$function_v1_0.coverage" NAME="function_v1.0 Coverage Results" MODIFIED="1536633285493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1python_base/day16" />
     <SUITE FILE_PATH="coverage/python_learning_test$random_number.coverage" NAME="random_number Coverage Results" MODIFIED="1535275663109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_number" />
     <SUITE FILE_PATH="coverage/python_learning_test$AQI_4_0.coverage" NAME="AQI_4.0 Coverage Results" MODIFIED="1535683432508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AQI" />
     <SUITE FILE_PATH="coverage/python_learning_test$pwd_strength_v5_0.coverage" NAME="pwd_strength_v5.0 Coverage Results" MODIFIED="1535184141458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/judge_password" />
+    <SUITE FILE_PATH="coverage/python_learning_test$three_menu_V2_0.coverage" NAME="three_menu_V2.0 Coverage Results" MODIFIED="1536567489804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1python_base/day07" />
     <SUITE FILE_PATH="coverage/code$currency_converter_v2_0.coverage" NAME="currency_converter_v2.0 Coverage Results" MODIFIED="1534043216569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_learning_test$AQI_8_0.coverage" NAME="AQI_8.0 Coverage Results" MODIFIED="1535884025045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AQI" />
     <SUITE FILE_PATH="coverage/python_learning_test$pwd_strength_v4_0.coverage" NAME="pwd_strength_v4.0 Coverage Results" MODIFIED="1535176351233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/judge_password" />
@@ -50,25 +57,22 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="three_menu.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/1python_base/day07/three_menu.py">
+      <file leaf-file-name="function_v1.0.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1python_base/day16/function_v1.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="105" column="44" lean-forward="true" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
-              <folding>
-                <element signature="e#127#452#0" expanded="false" />
-                <element signature="e#146#241#0" expanded="false" />
-                <element signature="e#260#354#0" expanded="false" />
-                <element signature="e#374#441#0" expanded="false" />
-                <element signature="e#467#694#0" expanded="false" />
-                <element signature="e#490#562#0" expanded="false" />
-                <element signature="e#586#657#0" expanded="false" />
-                <element signature="e#709#1102#0" expanded="false" />
-                <element signature="e#733#867#0" expanded="false" />
-                <element signature="e#891#1091#0" expanded="false" />
-                <element signature="e#1134#1252#0" expanded="false" />
-                <element signature="e#1335#1426#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="-39">
+              <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decrator.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1python_base/day16/decrator.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="648">
+              <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -86,16 +90,13 @@
     <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/1python_base/day07/three_menu_V2.0.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/1python_base/day16/decrator.py" root0="FORCE_HIGHLIGHTING" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/currency_converter.py" />
-        <option value="$PROJECT_DIR$/currency_converter_v1.0.py" />
-        <option value="$PROJECT_DIR$/currency_converter_v2.0.py" />
-        <option value="$PROJECT_DIR$/TEST.py" />
-        <option value="$PROJECT_DIR$/5687.py" />
-        <option value="$PROJECT_DIR$/currency_converter_v3.0.py" />
-        <option value="$PROJECT_DIR$/currency_converter_v4.0.py" />
         <option value="$PROJECT_DIR$/currency_converter_v5.0.py" />
         <option value="$PROJECT_DIR$/draw/draw_v3.0.py" />
         <option value="$PROJECT_DIR$/draw/draw_v４.0.py" />
@@ -139,6 +140,14 @@
         <option value="$PROJECT_DIR$/1python_base/day5/list_handle.py" />
         <option value="$PROJECT_DIR$/1python_base/day06/shopping.py" />
         <option value="$PROJECT_DIR$/1python_base/day07/three_menu.py" />
+        <option value="$PROJECT_DIR$/1python_base/day07/gg.py" />
+        <option value="$PROJECT_DIR$/1python_base/day07/ff.py" />
+        <option value="$PROJECT_DIR$/1python_base/day07/three_menu_01.py" />
+        <option value="$PROJECT_DIR$/1python_base/day07/three_menu_V2.0.py" />
+        <option value="$PROJECT_DIR$/1python_base/day15/function_v1.0.py" />
+        <option value="$PROJECT_DIR$/52_save_money/money_challenge_4.0.py" />
+        <option value="$PROJECT_DIR$/1python_base/day16/function_v1.0.py" />
+        <option value="$PROJECT_DIR$/1python_base/day16/decrator.py" />
       </list>
     </option>
   </component>
@@ -148,11 +157,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="662" />
-    <option name="y" value="2" />
-    <option name="width" value="733" />
-    <option name="height" value="729" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="657" />
+    <option name="width" value="734" />
+    <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <ConfirmationsSetting value="2" id="Add" />
@@ -172,6 +180,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -188,19 +197,18 @@
               <item name="python_learning_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_learning_test" type="462c0819:PsiDirectoryNode" />
               <item name="1python_base" type="462c0819:PsiDirectoryNode" />
-              <item name="day07" type="462c0819:PsiDirectoryNode" />
+              <item name="day16" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
       <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
@@ -224,75 +232,57 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.three_menu">
-    <configuration name="AQI_7.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.decrator">
+    <configuration name="decrator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AQI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1python_base/day16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/AQI/AQI_7.0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1python_base/day16/decrator.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="AQI_9.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="function_v1.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/AQI" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1python_base/day16" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="D:\pycharm\code\python_learning_test\AQI\AQI_10.0.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1python_base/day16/function_v1.0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="list_handle (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="money_challenge_4.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1python_base/day5" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/52_save_money" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1python_base/day5/list_handle.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="list_handle" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1python_base/day45" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1python_base/day45/list_handle.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/52_save_money/money_challenge_4.0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -315,20 +305,38 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="three_menu_V2.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1python_base/day07" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1python_base/day07/three_menu_V2.0.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.AQI_7.0" />
-      <item index="1" class="java.lang.String" itemvalue="Python.AQI_9.0" />
-      <item index="2" class="java.lang.String" itemvalue="Python.list_handle" />
-      <item index="3" class="java.lang.String" itemvalue="Python.list_handle (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Python.three_menu" />
+      <item index="0" class="java.lang.String" itemvalue="Python.three_menu" />
+      <item index="1" class="java.lang.String" itemvalue="Python.three_menu_V2.0" />
+      <item index="2" class="java.lang.String" itemvalue="Python.function_v1.0" />
+      <item index="3" class="java.lang.String" itemvalue="Python.money_challenge_4.0" />
+      <item index="4" class="java.lang.String" itemvalue="Python.decrator" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.three_menu" />
-        <item index="1" class="java.lang.String" itemvalue="Python.list_handle (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Python.list_handle" />
-        <item index="3" class="java.lang.String" itemvalue="Python.AQI_7.0" />
-        <item index="4" class="java.lang.String" itemvalue="Python.AQI_9.0" />
+        <item index="0" class="java.lang.String" itemvalue="Python.decrator" />
+        <item index="1" class="java.lang.String" itemvalue="Python.function_v1.0" />
+        <item index="2" class="java.lang.String" itemvalue="Python.money_challenge_4.0" />
+        <item index="3" class="java.lang.String" itemvalue="Python.three_menu_V2.0" />
+        <item index="4" class="java.lang.String" itemvalue="Python.three_menu" />
       </list>
     </recent_temporary>
   </component>
@@ -349,20 +357,19 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="662" y="2" width="733" height="729" extended-state="0" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.37269938" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37065053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43507588" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.81450254" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.067434214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34232715" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34210527" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5197368" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5185185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -389,60 +396,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="24" />
+      <option name="time" value="25" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/draw/draw_fractal_tree_v1.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="515">
-          <caret line="47" column="0" lean-forward="false" selection-start-line="47" selection-start-column="0" selection-end-line="49" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exchange/currency_converter_v3.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="13" column="14" lean-forward="false" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/exchange/currency_converter_v4.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/BMR/BMR_V3.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="85" column="31" lean-forward="false" selection-start-line="85" selection-start-column="31" selection-end-line="85" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/52_save_money/money_challenge_5.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/which_day/which_day_v1.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="20" column="10" lean-forward="false" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/judge_password/pwd_strength_v1.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
@@ -622,13 +580,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AQI/AQI_1.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1269">
-          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AQI/AQI_2.0.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="810">
@@ -706,11 +657,37 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/1python_base/day07/gg.py" />
+    <entry file="file://$PROJECT_DIR$/1python_base/day07/ff.py" />
+    <entry file="file://$PROJECT_DIR$/1python_base/day07/three_menu_01.py" />
+    <entry file="file://$PROJECT_DIR$/1python_base/day07/three_menu_V2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="86" column="69" lean-forward="false" selection-start-line="86" selection-start-column="69" selection-end-line="86" selection-end-column="69" />
+          <folding>
+            <element signature="e#85#1418#0" expanded="false" />
+            <element signature="e#111#436#0" expanded="false" />
+            <element signature="e#130#225#0" expanded="false" />
+            <element signature="e#244#338#0" expanded="false" />
+            <element signature="e#358#425#0" expanded="false" />
+            <element signature="e#451#678#0" expanded="false" />
+            <element signature="e#474#546#0" expanded="false" />
+            <element signature="e#570#641#0" expanded="false" />
+            <element signature="e#693#1086#0" expanded="false" />
+            <element signature="e#717#851#0" expanded="false" />
+            <element signature="e#875#1075#0" expanded="false" />
+            <element signature="e#1118#1236#0" expanded="false" />
+            <element signature="e#1319#1410#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/1python_base/day07/three_menu.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="105" column="44" lean-forward="true" selection-start-line="105" selection-start-column="44" selection-end-line="105" selection-end-column="44" />
+        <state relative-caret-position="27">
+          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="73" selection-end-column="1" />
           <folding>
+            <element signature="e#101#1434#0" expanded="false" />
             <element signature="e#127#452#0" expanded="false" />
             <element signature="e#146#241#0" expanded="false" />
             <element signature="e#260#354#0" expanded="false" />
@@ -724,6 +701,38 @@
             <element signature="e#1134#1252#0" expanded="false" />
             <element signature="e#1335#1426#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AQI/AQI_1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-215">
+          <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/52_save_money/money_challenge_4.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1python_base/day16/function_v1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-39">
+          <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1python_base/day16/decrator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

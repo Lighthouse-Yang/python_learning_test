@@ -47,8 +47,8 @@ def main():
     money_per_week = float(input('请输入初次存入的金额：'))    # 每周存入金额
     increase_money = float(input('请输入每周递增钱数：'))    # 递增的金额
     total_week = int(input('请输入存钱总周数：'))        # 总周数
-    saving = save_money_in_n_weeks(money_per_week, increase_money, total_week)    # 实参
-    print('总金额：', saving)
+    save_money_in_n_weeks(money_per_week, increase_money, total_week)    # 实参
+    print('总金额：', save_money_in_n_weeks(money_per_week, increase_money, total_week))
 
 
 if __name__ == '__main__':
