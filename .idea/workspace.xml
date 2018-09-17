@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86af8168-094e-4157-81f9-b29945e476a7" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1python_base/day07/three_menu_V2.0.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1python_base/day16/decrator.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1python_base/day16/function_v1.0.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/1python_base/day05/function_and_class.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/test.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/52_save_money/money_challenge_4.0.py" afterPath="$PROJECT_DIR$/52_save_money/money_challenge_4.0.py" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/1python_base/day16/function_v1.0.py" afterPath="$PROJECT_DIR$/1python_base/day16/decrator_v1.0.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,6 +40,7 @@
     <SUITE FILE_PATH="coverage/python_learning_test$random_number.coverage" NAME="random_number Coverage Results" MODIFIED="1535275663109" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_number" />
     <SUITE FILE_PATH="coverage/python_learning_test$AQI_4_0.coverage" NAME="AQI_4.0 Coverage Results" MODIFIED="1535683432508" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AQI" />
     <SUITE FILE_PATH="coverage/python_learning_test$pwd_strength_v5_0.coverage" NAME="pwd_strength_v5.0 Coverage Results" MODIFIED="1535184141458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/judge_password" />
+    <SUITE FILE_PATH="coverage/python_learning_test$function_and_class.coverage" NAME="function_and_class Coverage Results" MODIFIED="1537163356108" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1python_base/day05" />
     <SUITE FILE_PATH="coverage/python_learning_test$three_menu_V2_0.coverage" NAME="three_menu_V2.0 Coverage Results" MODIFIED="1536567489804" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1python_base/day07" />
     <SUITE FILE_PATH="coverage/code$currency_converter_v2_0.coverage" NAME="currency_converter_v2.0 Coverage Results" MODIFIED="1534043216569" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_learning_test$AQI_8_0.coverage" NAME="AQI_8.0 Coverage Results" MODIFIED="1535884025045" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AQI" />
@@ -57,17 +57,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="function_v1.0.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1python_base/day16/function_v1.0.py">
+      <file leaf-file-name="decrator_v1.0.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1python_base/day16/decrator_v1.0.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-39">
+            <state relative-caret-position="81">
               <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="decrator.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="list_handle.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1python_base/day05/list_handle.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="639">
+              <caret line="86" column="8" lean-forward="false" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="function_and_class.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1python_base/day05/function_and_class.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="decrator.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1python_base/day16/decrator.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="648">
@@ -97,7 +117,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/currency_converter_v5.0.py" />
         <option value="$PROJECT_DIR$/draw/draw_v3.0.py" />
         <option value="$PROJECT_DIR$/draw/draw_v４.0.py" />
         <option value="$PROJECT_DIR$/draw/draw_fractal_tree_v４.0.py" />
@@ -148,6 +167,7 @@
         <option value="$PROJECT_DIR$/52_save_money/money_challenge_4.0.py" />
         <option value="$PROJECT_DIR$/1python_base/day16/function_v1.0.py" />
         <option value="$PROJECT_DIR$/1python_base/day16/decrator.py" />
+        <option value="$PROJECT_DIR$/1python_base/day05/function_and_class.py" />
       </list>
     </option>
   </component>
@@ -158,7 +178,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="657" />
+    <option name="x" value="372" />
     <option name="width" value="734" />
     <option name="height" value="728" />
   </component>
@@ -192,6 +212,18 @@
               <item name="python_learning_test" type="b2602c69:ProjectViewProjectNode" />
               <item name="python_learning_test" type="462c0819:PsiDirectoryNode" />
               <item name="1python_base" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_learning_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_learning_test" type="462c0819:PsiDirectoryNode" />
+              <item name="1python_base" type="462c0819:PsiDirectoryNode" />
+              <item name="day05" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="python_learning_test" type="b2602c69:ProjectViewProjectNode" />
+              <item name="python_learning_test" type="462c0819:PsiDirectoryNode" />
+              <item name="1python_base" type="462c0819:PsiDirectoryNode" />
+              <item name="day07" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="python_learning_test" type="b2602c69:ProjectViewProjectNode" />
@@ -232,7 +264,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.decrator">
+  <component name="RunManager" selected="Python.function_and_class">
     <configuration name="decrator" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -251,6 +283,24 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
+    <configuration name="function_and_class" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1python_base/day05" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1python_base/day05/function_and_class.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
     <configuration name="function_v1.0" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,7 +314,7 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1python_base/day16/function_v1.0.py" />
+      <option name="SCRIPT_NAME" value="D:\pycharm\code\python_learning_test\1python_base\day16\decrator_v1.0.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -283,24 +333,6 @@
       <module name="code" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/52_save_money/money_challenge_4.0.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="three_menu" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/1python_base/day07" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/1python_base/day07/three_menu.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -324,19 +356,19 @@
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.three_menu" />
-      <item index="1" class="java.lang.String" itemvalue="Python.three_menu_V2.0" />
-      <item index="2" class="java.lang.String" itemvalue="Python.function_v1.0" />
-      <item index="3" class="java.lang.String" itemvalue="Python.money_challenge_4.0" />
-      <item index="4" class="java.lang.String" itemvalue="Python.decrator" />
+      <item index="0" class="java.lang.String" itemvalue="Python.three_menu_V2.0" />
+      <item index="1" class="java.lang.String" itemvalue="Python.function_v1.0" />
+      <item index="2" class="java.lang.String" itemvalue="Python.money_challenge_4.0" />
+      <item index="3" class="java.lang.String" itemvalue="Python.decrator" />
+      <item index="4" class="java.lang.String" itemvalue="Python.function_and_class" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.decrator" />
-        <item index="1" class="java.lang.String" itemvalue="Python.function_v1.0" />
-        <item index="2" class="java.lang.String" itemvalue="Python.money_challenge_4.0" />
-        <item index="3" class="java.lang.String" itemvalue="Python.three_menu_V2.0" />
-        <item index="4" class="java.lang.String" itemvalue="Python.three_menu" />
+        <item index="0" class="java.lang.String" itemvalue="Python.function_and_class" />
+        <item index="1" class="java.lang.String" itemvalue="Python.decrator" />
+        <item index="2" class="java.lang.String" itemvalue="Python.function_v1.0" />
+        <item index="3" class="java.lang.String" itemvalue="Python.money_challenge_4.0" />
+        <item index="4" class="java.lang.String" itemvalue="Python.three_menu_V2.0" />
       </list>
     </recent_temporary>
   </component>
@@ -358,16 +390,17 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.37065053" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3323442" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.43507588" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.067434214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47532895" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34210527" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34210527" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5185185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -380,6 +413,28 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" show_stripe_button="false" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32840723" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.067434214" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34210527" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16944024" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32894737" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Concurrent Activities Diagram" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="FLOATING" visible="false" show_stripe_button="false" weight="0.32894737" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5185185" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -401,49 +456,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/judge_password/pwd_strength_v1.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/judge_password/pwd_strength_v3.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="73" column="70" lean-forward="true" selection-start-line="73" selection-start-column="70" selection-end-line="73" selection-end-column="70" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/judge_password/pwd_strength_v2.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="261">
-          <caret line="76" column="18" lean-forward="true" selection-start-line="76" selection-start-column="18" selection-end-line="76" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/judge_password/password_3.0.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="6" lean-forward="false" selection-start-line="0" selection-start-column="6" selection-end-line="9" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/judge_password/LoginSystem.py.bak" />
-    <entry file="file://$PROJECT_DIR$/judge_password/pwd_strength_v5.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="120" column="0" lean-forward="false" selection-start-line="120" selection-start-column="0" selection-end-line="120" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/random_number/random_number_v1.0.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="666">
-          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://D:/Anaconda/Lib/site-packages/dask/dataframe/groupby.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2183">
@@ -650,13 +662,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1python_base/day05/list_handle.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="75" column="38" lean-forward="true" selection-start-line="75" selection-start-column="38" selection-end-line="75" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1python_base/day07/gg.py" />
     <entry file="file://$PROJECT_DIR$/1python_base/day07/ff.py" />
     <entry file="file://$PROJECT_DIR$/1python_base/day07/three_menu_01.py" />
@@ -664,21 +669,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="86" column="69" lean-forward="false" selection-start-line="86" selection-start-column="69" selection-end-line="86" selection-end-column="69" />
-          <folding>
-            <element signature="e#85#1418#0" expanded="false" />
-            <element signature="e#111#436#0" expanded="false" />
-            <element signature="e#130#225#0" expanded="false" />
-            <element signature="e#244#338#0" expanded="false" />
-            <element signature="e#358#425#0" expanded="false" />
-            <element signature="e#451#678#0" expanded="false" />
-            <element signature="e#474#546#0" expanded="false" />
-            <element signature="e#570#641#0" expanded="false" />
-            <element signature="e#693#1086#0" expanded="false" />
-            <element signature="e#717#851#0" expanded="false" />
-            <element signature="e#875#1075#0" expanded="false" />
-            <element signature="e#1118#1236#0" expanded="false" />
-            <element signature="e#1319#1410#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -686,21 +676,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="27">
           <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="73" selection-end-column="1" />
-          <folding>
-            <element signature="e#101#1434#0" expanded="false" />
-            <element signature="e#127#452#0" expanded="false" />
-            <element signature="e#146#241#0" expanded="false" />
-            <element signature="e#260#354#0" expanded="false" />
-            <element signature="e#374#441#0" expanded="false" />
-            <element signature="e#467#694#0" expanded="false" />
-            <element signature="e#490#562#0" expanded="false" />
-            <element signature="e#586#657#0" expanded="false" />
-            <element signature="e#709#1102#0" expanded="false" />
-            <element signature="e#733#867#0" expanded="false" />
-            <element signature="e#891#1091#0" expanded="false" />
-            <element signature="e#1134#1252#0" expanded="false" />
-            <element signature="e#1335#1426#0" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -708,7 +683,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-215">
           <caret line="47" column="13" lean-forward="true" selection-start-line="47" selection-start-column="13" selection-end-line="47" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -716,13 +690,60 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="423">
           <caret line="52" column="0" lean-forward="true" selection-start-line="52" selection-start-column="0" selection-end-line="52" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/which_day/which_day_v2.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1python_base/day16/function_v1.0.py">
+    <entry file="file://$PROJECT_DIR$/which_day/which_day_v3.0.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-39">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/which_day/which_day_v4.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/which_day/which_day_v1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="648">
+          <caret line="24" column="34" lean-forward="false" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/random_number/random_number_v1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="32" column="0" lean-forward="false" selection-start-line="32" selection-start-column="0" selection-end-line="32" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1335">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1python_base/day16/decrator_v1.0.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
           <caret line="3" column="20" lean-forward="false" selection-start-line="3" selection-start-column="20" selection-end-line="3" selection-end-column="20" />
           <folding />
         </state>
@@ -732,6 +753,22 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="648">
           <caret line="24" column="0" lean-forward="true" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1python_base/day05/list_handle.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="639">
+          <caret line="86" column="8" lean-forward="false" selection-start-line="86" selection-start-column="8" selection-end-line="86" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1python_base/day05/function_and_class.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="46" column="31" lean-forward="false" selection-start-line="46" selection-start-column="31" selection-end-line="46" selection-end-column="31" />
           <folding />
         </state>
       </provider>
