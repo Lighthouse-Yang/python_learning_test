@@ -8,7 +8,7 @@
 import tensorflow as tf
 # 导入科学计算模块.
 import numpy as np
-# 数据集数量.
+# 一次导入神经网络的数据集数量.
 BATCH_SIZE = 8
 seed = 23455
 
