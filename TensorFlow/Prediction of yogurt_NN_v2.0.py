@@ -1,10 +1,11 @@
 """
     Author : YangBo
-    Time : 2018-09-18 15:45
-    function:一层神经网络实现酸奶的预测.
+    Time : 2018-09-19 9:51
+    function:一层实现神经网络的预测.
+    New function:因产销关系，预测的多少产生的损失分为：产大于销(成本损失),销大于产(利润损失).
 """
 # coding=utf-8
-# 预测多或预测少的影响一样.
+# 产销大小的不同，产生的损失不同.
 # 导入模板,生成数据集.
 import tensorflow as tf
 import numpy as np
@@ -12,7 +13,7 @@ BATCH_SIZE = 8
 SEED = 23455
 
 rdm = np.random.RandomState(SEED)
-# 函数关系式：y=x1+x2已知.
+# 函数关系式：y=ax1+bx2已知.
 X = rdm.rand(32, 2)
 Y_ = [[x1+x2+(rdm.rand()/10.0-0.05)] for (x1, x2) in X]
 
@@ -23,9 +24,19 @@ w1 = tf.Variable(tf.random_normal([2, 1], stddev=1, seed=1))
 y = tf.matmul(x, w1)
 
 # 2定义损失函数及反向传播方法.
-# 定义损失函数为MSE,反向传播方法为梯度下降.
-loss_mse = tf.reduce_mean(tf.square(y_ - y))
-train_step = tf.train.GradientDescentOptimizer(0.001).minimize(loss_mse)
+"""
+    # 定义自定义损失函数,通过比较产销关系就行损失函数计算.
+    COST = 1        # 酸奶成本.
+    PROFIT = 9      # 酸奶利润.
+    tf.where(tf.greater(y, y_)判断y与y_的大小关系：
+                    y>y_:COST * (y - y_)
+                    y<y_:PROFIT * (y_ - y)))
+"""
+COST = 1
+PROFIT = 9
+loss = tf.reduce_sum(tf.where(tf.greater(y, y_), COST * (y - y_), PROFIT * (y_ - y)))
+# 反向传播方法为梯度下降.
+train_step = tf.train.GradientDescentOptimizer(0.001).minimize(loss)
 
 # 3生成会话,训练STEPS轮.
 with tf.Session() as sess:
@@ -41,5 +52,5 @@ with tf.Session() as sess:
             print(sess.run(w1), '\n')
     print('最终函数系数(W1)为：\n', sess.run(w1))
 """
-    最终拟合结果：Y(销量)=0.98x1+1.02x2
+    最终拟合结果：Y(销量)=1.02x1+1.04x2
 """
