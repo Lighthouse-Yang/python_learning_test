@@ -3,7 +3,7 @@
     Time : 2018-09-24 16:45
     function:正则化.
 """
-# coding=utf-8
+# coding:utf-8
 # 0导入模板, 生成模拟数据集.
 import tensorflow as tf
 import numpy as np
