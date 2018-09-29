@@ -4,7 +4,6 @@
     function:反向传播.
 """
 import tensorflow as tf
-# from tensorflow.examples.tutorials.mnist \
 import input_data
 import os
 import mnist_forward
