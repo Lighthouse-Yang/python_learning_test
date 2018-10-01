@@ -2,8 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="86af8168-094e-4157-81f9-b29945e476a7" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_app.py" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49501.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49501.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49501.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49601.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49601.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49601.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49701.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49701.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49701.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49801.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49801.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49801.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49901.data-00000-of-00001" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49901.index" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/MNIST_MODEL-49901.meta" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/MODEL_data/checkpoint" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_backward.py" afterPath="$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_backward.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_test.py" afterPath="$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_test.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -44,6 +62,7 @@
     <SUITE FILE_PATH="coverage/python_learning_test$AQI_9_0.coverage" NAME="AQI_9.0 Coverage Results" MODIFIED="1535952896521" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AQI" />
     <SUITE FILE_PATH="coverage/python_learning_test$Prediction_of_yogurt_NN_v2_0.coverage" NAME="Prediction of yogurt_NN_v2.0 Coverage Results" MODIFIED="1537322607182" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow" />
     <SUITE FILE_PATH="coverage/python_learning_test$BMR_V3_0.coverage" NAME="BMR_V3.0 Coverage Results" MODIFIED="1534607205914" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/BMR" />
+    <SUITE FILE_PATH="coverage/python_learning_test$Nosetests_in_mnist_test_py.coverage" NAME="Nosetests in mnist_test.py Coverage Results" MODIFIED="1538208813345" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Handwritten_numeral_recognition" />
     <SUITE FILE_PATH="coverage/python_learning_test$list_handle__1_.coverage" NAME="list_handle (1) Coverage Results" MODIFIED="1536478722610" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1python_base/day5" />
     <SUITE FILE_PATH="coverage/python_learning_test$AQI_6_0.coverage" NAME="AQI_6.0 Coverage Results" MODIFIED="1535874796322" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AQI" />
     <SUITE FILE_PATH="coverage/python_learning_test$random_number_v4_0.coverage" NAME="random_number_v4.0 Coverage Results" MODIFIED="1535428028019" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_number" />
@@ -51,6 +70,7 @@
     <SUITE FILE_PATH="coverage/code$currency_converter_v5_0.coverage" NAME="currency_converter_v5.0 Coverage Results" MODIFIED="1534143023810" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/python_learning_test$AQI_3_0.coverage" NAME="AQI_3.0 Coverage Results" MODIFIED="1535613924946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AQI" />
     <SUITE FILE_PATH="coverage/python_learning_test$money_challenge_4_0.coverage" NAME="money_challenge_4.0 Coverage Results" MODIFIED="1537331874633" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/52_save_money" />
+    <SUITE FILE_PATH="coverage/python_learning_test$Nosetests_for_mnist_test_test.coverage" NAME="Nosetests for mnist_test.test Coverage Results" MODIFIED="1538228072257" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Handwritten_numeral_recognition" />
     <SUITE FILE_PATH="coverage/python_learning_test$list_handle.coverage" NAME="list_handle Coverage Results" MODIFIED="1536379715526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/1python_base/day45" />
     <SUITE FILE_PATH="coverage/python_learning_test$Prediction_of_yogurt_NN.coverage" NAME="Prediction of yogurt_NN Coverage Results" MODIFIED="1537621679445" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow" />
     <SUITE FILE_PATH="coverage/python_learning_test$BP_v1_0.coverage" NAME="BP_v1.0 Coverage Results" MODIFIED="1537254558314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow" />
@@ -66,28 +86,42 @@
     <SUITE FILE_PATH="coverage/python_learning_test$random_number_v5_0.coverage" NAME="random_number_v5.0 Coverage Results" MODIFIED="1535438611833" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/random_number" />
     <SUITE FILE_PATH="coverage/python_learning_test$test_1.coverage" NAME="test_1 Coverage Results" MODIFIED="1537167405700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/TensorFlow" />
     <SUITE FILE_PATH="coverage/python_learning_test$which_day_v1_0.coverage" NAME="which_day_v1.0 Coverage Results" MODIFIED="1534869873493" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/which_day" />
-    <SUITE FILE_PATH="coverage/python_learning_test$mnist_backward__1_.coverage" NAME="mnist_backward (1) Coverage Results" MODIFIED="1538140472730" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Handwritten_numeral_recognition" />
+    <SUITE FILE_PATH="coverage/python_learning_test$mnist_backward__1_.coverage" NAME="mnist_backward (1) Coverage Results" MODIFIED="1538206743597" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/Handwritten_numeral_recognition" />
     <SUITE FILE_PATH="coverage/python_learning_test$AQI_5_0.coverage" NAME="AQI_5.0 Coverage Results" MODIFIED="1535780212555" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/AQI" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="mnist_backward.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="mnist_backward.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_backward.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="99">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
+            <state relative-caret-position="1566">
+              <caret line="61" column="59" lean-forward="false" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+              <folding>
+                <element signature="e#75#98#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="input_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/input_data.py">
+      <file leaf-file-name="mnist_test.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1269">
-              <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
+            <state relative-caret-position="1080">
+              <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
               <folding>
-                <element signature="e#733#771#0" expanded="true" />
+                <element signature="e#99#110#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="mnist_app.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_app.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="81">
+              <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+              <folding>
+                <element signature="e#89#112#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -108,16 +142,16 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/TensorFlow/regularization_NN.py" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_test.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/1python_base/day07/three_menu_V2.0.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/1python_base/day16/decrator.py" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/input_data.py" root0="SKIP_INSPECTION" />
+    <setting file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_app.py" root0="SKIP_INSPECTION" />
     <setting file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_backward.py" root0="SKIP_INSPECTION" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/judge_password/login.py" />
-        <option value="$PROJECT_DIR$/judge_password/LoginSystem.txt" />
         <option value="$PROJECT_DIR$/judge_password/LoginSystem.py" />
         <option value="$PROJECT_DIR$/random_number/random_number_v2.0.py" />
         <option value="$PROJECT_DIR$/random_number/random_number_v3.0.py" />
@@ -167,6 +201,8 @@
         <option value="$PROJECT_DIR$/Handwritten numeral recognition/mnist_backward.py" />
         <option value="$PROJECT_DIR$/Handwritten_numeral_recognition/input_data.py" />
         <option value="$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_backward.py" />
+        <option value="$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_test.py" />
+        <option value="$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_app.py" />
       </list>
     </option>
   </component>
@@ -176,10 +212,10 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="641" />
-    <option name="y" value="28" />
-    <option name="width" value="769" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="583" />
+    <option name="y" value="6" />
+    <option name="width" value="788" />
     <option name="height" value="728" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -246,7 +282,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.mnist_backward (1)">
+  <component name="RunManager" selected="Python tests.Nosetests for mnist_test.test">
     <configuration name="Data_preparation" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -264,6 +300,38 @@
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
+    </configuration>
+    <configuration name="Nosetests for mnist_test.test" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Handwritten_numeral_recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;mnist_test.test&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+    </configuration>
+    <configuration name="Nosetests in mnist_test.py" type="tests" factoryName="Nosetests" temporary="true" nameIsGenerated="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Handwritten_numeral_recognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="code" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_regexPattern" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_test.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
     </configuration>
     <configuration name="mnist_backward (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -301,56 +369,20 @@
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
     </configuration>
-    <configuration name="moving_average" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TensorFlow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorFlow/moving_average.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
-    <configuration name="regularization_NN" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/TensorFlow" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="code" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/TensorFlow/regularization_NN.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-    </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.moving_average" />
-      <item index="1" class="java.lang.String" itemvalue="Python.regularization_NN" />
-      <item index="2" class="java.lang.String" itemvalue="Python.Data_preparation" />
-      <item index="3" class="java.lang.String" itemvalue="Python.mnist_backward" />
-      <item index="4" class="java.lang.String" itemvalue="Python.mnist_backward (1)" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Data_preparation" />
+      <item index="1" class="java.lang.String" itemvalue="Python.mnist_backward" />
+      <item index="2" class="java.lang.String" itemvalue="Python.mnist_backward (1)" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.Nosetests in mnist_test.py" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.Nosetests for mnist_test.test" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.mnist_backward (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Python.mnist_backward" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Data_preparation" />
-        <item index="3" class="java.lang.String" itemvalue="Python.regularization_NN" />
-        <item index="4" class="java.lang.String" itemvalue="Python.moving_average" />
+        <item index="0" class="java.lang.String" itemvalue="Python tests.Nosetests for mnist_test.test" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.Nosetests in mnist_test.py" />
+        <item index="2" class="java.lang.String" itemvalue="Python.mnist_backward (1)" />
+        <item index="3" class="java.lang.String" itemvalue="Python.mnist_backward" />
+        <item index="4" class="java.lang.String" itemvalue="Python.Data_preparation" />
       </list>
     </recent_temporary>
   </component>
@@ -370,20 +402,50 @@
     </task>
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="Nosetests_for_mnist_test_test - 2018.09.29 at 21h 34m 29s.xml">
+      <configuration name="Nosetests for mnist_test.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_for_mnist_test_test - 2018.09.29 at 21h 34m 42s.xml">
+      <configuration name="Nosetests for mnist_test.test" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_mnist_test_py - 2018.09.29 at 14h 59m 49s.xml">
+      <configuration name="Nosetests in mnist_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_mnist_test_py - 2018.09.29 at 15h 22m 12s.xml">
+      <configuration name="Nosetests in mnist_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_mnist_test_py - 2018.09.29 at 15h 23m 33s.xml">
+      <configuration name="Nosetests in mnist_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_mnist_test_py - 2018.09.29 at 15h 39m 42s.xml">
+      <configuration name="Nosetests in mnist_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_mnist_test_py - 2018.09.29 at 16h 03m 42s.xml">
+      <configuration name="Nosetests in mnist_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_mnist_test_py - 2018.09.29 at 16h 05m 18s.xml">
+      <configuration name="Nosetests in mnist_test.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Nosetests_in_mnist_test_py - 2018.09.29 at 16h 13m 43s.xml">
+      <configuration name="Nosetests in mnist_test.py" configurationId="tests" />
+    </history-entry>
+  </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
+    <frame x="583" y="6" width="788" height="728" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.30862328" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3846154" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32730263" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.8865132" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.9459459" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24962178" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40789473" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.40789473" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.51644737" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.5152027" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -432,14 +494,11 @@
           </properties>
         </breakpoint>
       </default-breakpoints>
-      <option name="time" value="25" />
+      <option name="time" value="30" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/1python_base/day45/list_handle.py" />
-    <entry file="file://$PROJECT_DIR$/1python_base/day07/gg.py" />
-    <entry file="file://$PROJECT_DIR$/1python_base/day07/ff.py" />
     <entry file="file://$PROJECT_DIR$/1python_base/day07/three_menu_01.py" />
     <entry file="file://$PROJECT_DIR$/1python_base/day07/three_menu_V2.0.py">
       <provider selected="true" editor-type-id="text-editor">
@@ -703,21 +762,8 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Handwritten numeral recognition/mnist_test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="25" column="0" lean-forward="false" selection-start-line="25" selection-start-column="0" selection-end-line="25" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Handwritten numeral recognition/Data_preparation.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="81">
-          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Handwritten numeral recognition/mnist_test.py" />
+    <entry file="file://$PROJECT_DIR$/Handwritten numeral recognition/Data_preparation.py" />
     <entry file="file://$PROJECT_DIR$/TensorFlow/regularization_NN.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="324">
@@ -725,37 +771,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Handwritten numeral recognition/mnist_forward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="648">
-          <caret line="24" column="36" lean-forward="false" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Handwritten numeral recognition/mnist_backward.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="67" column="95" lean-forward="false" selection-start-line="67" selection-start-column="95" selection-end-line="67" selection-end-column="96" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/Handwritten numeral recognition/mnist_forward.py" />
+    <entry file="file://$PROJECT_DIR$/Handwritten numeral recognition/mnist_backward.py" />
     <entry file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/input_data.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1269">
           <caret line="47" column="30" lean-forward="false" selection-start-line="47" selection-start-column="30" selection-end-line="47" selection-end-column="30" />
-          <folding>
-            <element signature="e#733#771#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_backward.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="99">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="1566">
+          <caret line="61" column="59" lean-forward="false" selection-start-line="61" selection-start-column="59" selection-end-line="61" selection-end-column="59" />
+          <folding>
+            <element signature="e#75#98#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_forward.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="50" column="0" lean-forward="false" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1080">
+          <caret line="45" column="0" lean-forward="false" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
+          <folding>
+            <element signature="e#99#110#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Handwritten_numeral_recognition/mnist_app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="81">
+          <caret line="3" column="31" lean-forward="false" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
+          <folding>
+            <element signature="e#89#112#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>

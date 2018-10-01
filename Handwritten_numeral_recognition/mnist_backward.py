@@ -18,10 +18,10 @@ LEARNING_BATE_DECAY = 0.99
 REGULARIZER = 0.0001
 # 训练轮数.
 STEPS = 50000
-# 滑动平均.
+# 滑动平均衰减率.
 MOVING_AVERAGE_DECAY = 0.99
 # 模型保存路径.
-MODEL_SAVE_PATH = "D:\pycharm\code\python_learning_test\Handwritten_numeral_recognition\MODEL_data"
+MODEL_SAVE_PATH = "D:\pycharm\code\python_learning_test\Handwritten_numeral_recognition\MNIST_MODEL"
 MODEL_NAME = "MNIST_MODEL"
 
 
@@ -56,10 +56,15 @@ def backward(mnist):
         init_op = tf.global_variables_initializer()
         sess.run(init_op)
 
+        # 断点续训.
+        ckpt = tf.train.get_checkpoint_state(MODEL_SAVE_PATH)
+        if ckpt and ckpt.model_checkpoint_path:
+            saver.restore(sess, ckpt.model_checkpoint_path)
+
         for i in range(STEPS):
             xs, ys = mnist.train.next_batch(BATCH_SIZE)
             _, loss_value, step = sess.run([train_op, loss, global_step], feed_dict={x: xs, y_: ys})
-            if i % 100 == 0:
+            if i % 1000 == 0:
                 print('第{}轮训练后,损失函数为：{}'.format(step, loss_value))
                 saver.save(sess, os.path.join(MODEL_SAVE_PATH, MODEL_NAME), global_step=global_step)
 
